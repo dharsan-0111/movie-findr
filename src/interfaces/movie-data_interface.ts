@@ -75,6 +75,12 @@ export interface MovieCategorizedResponse {
     total_results: number;
 }
 
+export interface Language {
+    iso_639_1: string;
+    english_name: string;
+    name: string;
+}
+
 export interface PieChartData {
     label: string;
     value: string | number;
