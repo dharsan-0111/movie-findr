@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Movie Roulette 🎥
 
-## Getting Started
+A minimalist movie discovery app built with modern web technologies, helping users quickly find their next favorite movie without endless scrolling.
 
-First, run the development server:
+## ✨ Features
+- **Movie Roulette:** Spin a genre-specific wheel to get a random movie suggestion.
+- **Custom Movie Lists:** Add or remove movies from lists for a more personalized experience.
+- **Search & Discover:** Find movies easily using TMDB’s vast movie database.
+- **Responsive Design:** Fully optimized for desktops and mobile devices.
+- **User-Friendly Interface:** Powered by Shadcn and Tailwind CSS for clean and sleek visuals.
 
+## 🔧 Built With
+- **[Next.js](https://nextjs.org/):** A React framework for building fast and SEO-friendly web apps.
+- **[Shadcn UI](https://shadcn.dev/):** Accessible and beautiful UI components.
+- **[Tailwind CSS](https://tailwindcss.com/):** A utility-first CSS framework for rapid styling.
+- **[TMDB API](https://www.themoviedb.org/documentation/api):** Free and extensive API for fetching movie data.
+- **[Vercel](https://vercel.com/):** Deployment and hosting for fast and reliable delivery.
+
+## 🚀 Installation & Usage
+### Prerequisites
+- Node.js (>=14.x)
+- npm or yarn
+
+### Clone the Repository
+```bash
+git clone https://github.com/your-username/movie-roulette.git
+cd movie-roulette
+```
+
+### Install Dependencies
+```bash
+npm install
+# or
+yarn install
+```
+
+### Start Development Server
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
+```
+Visit [http://localhost:3000](http://localhost:3000) in your browser.
+
+### Build for Production
+```bash
+npm run build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🌟 Features Roadmap
+- [ ] Add movie reviews and ratings.
+- [ ] Create user-generated lists (no authentication required).
+- [ ] Save favorite genres or movies.
+- [ ] Support multiple languages using i18n.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📄 License
+This project is licensed under the [MIT License](LICENSE).
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🙌 Acknowledgments
+- Data provided by **[TMDB](https://www.themoviedb.org/)**.
+- Icons by **[Heroicons](https://heroicons.com/)**.
+- Hosted on **[Vercel](https://vercel.com/)**.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 👤 Author
+[Dharsan S](https://github.com/dharsan-0111)

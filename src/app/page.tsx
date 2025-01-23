@@ -5,9 +5,9 @@ import MovieWheel from "@/components/SpinningWheel";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Movie } from "@/interfaces/movie-data_interface";
 import { generateRandomMovies } from "@/lib/utils";
+import { Film } from "lucide-react";
 
 export default async function Page() {
-
   let movieResponse: Movie[] | undefined = undefined;
 
   try {
@@ -47,7 +47,50 @@ export default async function Page() {
                 </div>
 
                 <footer className="mt-16 text-center text-sm text-muted-foreground">
-                  <p>Click the button to spin the wheel and get a random movie suggestion.</p>
+                  <p>
+                    Click the button to spin the wheel and get a random movie
+                    suggestion.
+                  </p>
+                </footer>
+
+                <footer className="mt-16 border-t border-cyan-500/20 py-8">
+                  <div className="container mx-auto px-4">
+                    <div className="flex flex-col items-center gap-4 text-center">
+                      <div className="flex items-center gap-2">
+                        <Film className="h-5 w-5 text-cyan-500" />
+                        <span className="bg-gradient-to-r from-cyan-500 to-teal-500 bg-clip-text text-lg font-bold text-transparent">
+                          Movie Roulette
+                        </span>
+                      </div>
+                      <div className="flex flex-col gap-2 text-sm text-muted-foreground">
+                        <p>Powered by TMDB API</p>
+                        <p>
+                          © {new Date().getFullYear()} Movie Roulette. All
+                          rights reserved.
+                        </p>
+                      </div>
+                      {/* <div className="flex gap-4 text-xs text-muted-foreground">
+                        <a
+                          href="#"
+                          className="hover:text-cyan-400 transition-colors"
+                        >
+                          Privacy Policy
+                        </a>
+                        <a
+                          href="#"
+                          className="hover:text-cyan-400 transition-colors"
+                        >
+                          Terms of Service
+                        </a>
+                        <a
+                          href="#"
+                          className="hover:text-cyan-400 transition-colors"
+                        >
+                          Contact
+                        </a>
+                      </div> */}
+                    </div>
+                  </div>
                 </footer>
               </div>
             </div>
@@ -55,6 +98,5 @@ export default async function Page() {
         </MovieProvider>
       </div>
     </ThemeProvider>
-  )
+  );
 }
-

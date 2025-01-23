@@ -60,7 +60,6 @@ export const MovieProvider: React.FC<{
   }
 
   useEffect(() => {
-    console.log(filters)
     if(filters.genres.length > 0 || filters.languages.length > 0)
     {
         fetchMovies();

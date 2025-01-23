@@ -388,7 +388,7 @@ const MovieWheel: React.FC = (): React.JSX.Element => {
                 </div>
                 <div className="flex items-center gap-3 md:gap-4">
                   <div className="flex items-center gap-1">
-                    <span className="text-xs md:text-sm">Rating: {selectedMovie.vote_average}/10</span>
+                    <span className="text-xs md:text-sm">Rating: {Math.round(selectedMovie.vote_average)}/10</span>
                   </div>
                 </div>
                 <div>
