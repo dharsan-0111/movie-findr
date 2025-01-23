@@ -34,7 +34,7 @@ export default function RootLayout({
         <meta property="og:title" content="Movie Roulette App" />
         <meta property="og:description" content="Discover your next movie with ease! Movie Roulette helps you find random movies based on genres and make film choices fun and effortless." />
         <meta property="og:image" content="/og-image.png" />
-        <meta property="og:url" content="https://movie-roulette.vercel.app" />
+        <meta property="og:url" content="https://random-movie-roulette.vercel.app" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Movie Roulette App" />
